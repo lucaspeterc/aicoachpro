@@ -5,12 +5,13 @@ import { Dialog, DialogPanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Image from 'next/image'
 
+
 const navigation = [
-  { name: 'Wizja', href: '#' },
-  { name: 'Produkt', href: '#' },
-  { name: 'Badania', href: '#' },
-  { name: 'O nas', href: '#' },
-  { name: 'Kontakt', href: '#' },
+  { name: 'Wizja', href: '#vision' },
+  { name: 'Produkt', href: '#features' },
+  { name: 'Badania', href: '#research' },
+  { name: 'O nas', href: '#about' },
+  { name: 'Kontakt', href: '#contact' },
 ]
 
 export default function Navbar() {
@@ -25,9 +26,9 @@ export default function Navbar() {
             <Image
               alt=""
               src="/assets/logo.png"
-              width={400}
-              height={500}
-              className="h-8 w-auto"
+              width={100}
+              height={100}
+              className="w-auto"
             />
           </a>
         </div>
@@ -63,9 +64,9 @@ export default function Navbar() {
               <Image
               alt=""
               src="/assets/logo.png"
-              width={400}
-              height={500}
-              className="h-8 w-auto"
+              width={200}
+              height={100}
+              className="w-auto"
             />
             </a>
             <button

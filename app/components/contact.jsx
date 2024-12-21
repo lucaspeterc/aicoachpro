@@ -144,7 +144,7 @@ export default function Contact() {
             type="submit"
             className="block w-full rounded-md bg-darkGreen px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-xs hover:bg-lightGreen focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
           >
-            Let's talk
+            Porozmawiajmy o projekcie!
           </button>
         </div>
       </form>

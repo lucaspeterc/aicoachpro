@@ -12,36 +12,37 @@ import { RocketLaunchIcon } from '@heroicons/react/24/outline';
 
 const features = [
   {
-    name: 'Inteligentne Algorytmy',
-    description: 'System wykorzystuje sztuczną inteligencję, aby analizować dane treningowe i generować spersonalizowane rekomendacje treningowe, wspierając szybszy i bardziej efektywny rozwój piłkarzy.',
+    name: 'Inteligentne Algorytmy AI do Planowania Treningów',
+    description: 'Nasza platforma AI do planowania treningów wykorzystuje sztuczną inteligencję w sporcie do analizy danych treningowych. Generuje spersonalizowane plany treningowe, które automatyzują proces planowania i wspierają rozwój zawodników, przyspieszając ich postępy i redukując ryzyko kontuzji.',
     icon: RocketLaunchIcon,
   },
   {
-    name: 'Nowoczesne Systemy Pomiarowe',
-    description: 'Dzięki czujnikom i fotokomórkom system precyzyjnie monitoruje ruchy zawodników, co pozwala na bieżącą analizę ich wydajności i korygowanie błędów.',
+    name: 'Nowoczesne Systemy Pomiarowe i Analiza Wyników Sportowych AI',
+    description: 'Dzięki zaawansowanym czujnikom i fotokomórkom nasz system śledzi każdy ruch piłkarzy. Automatyzacja analizy wyników sportowych online pozwala trenerom na bieżąco monitorować wydajność zawodników i korygować błędy, co wpływa na lepsze wyniki sportowe z AI.',
     icon: RocketLaunchIcon,
   },
   {
-    name: 'Zgodność z wytycznymi PZPN',
-    description: 'Generowane przez system konspekty treningowe są zgodne z wymogami PZPN, co ułatwia uzyskanie certyfikacji i dotacji dla szkółek piłkarskich.',
+    name: 'Zgodność z Wytycznymi PZPN i Certyfikacja Klubów',
+    description: 'Platforma AI Coach Pro generuje konspekty treningowe zgodne z wytycznymi PZPN AI, co wspiera szkółki piłkarskie w uzyskaniu certyfikacji oraz dotacji. Automatyzacja planowania treningów ułatwia spełnianie wymagań PZPN, podnosząc jakość treningów w klubie.',
     icon: ArrowPathIcon,
   },
   {
-    name: 'Wsparcie Rozwoju Klubu',
-    description: 'System jest dostępny zarówno dla dużych, jak i mniejszych klubów, z możliwością wypożyczenia niezbędnego sprzętu, co czyni go dostępnym i ekonomicznie korzystnym dla każdego.',
+    name: 'Wsparcie Rozwoju Klubu z AI i Automatyzacją Treningów',
+    description: 'Nasza platforma analityczna dla sportu jest dostępna zarówno dla dużych, jak i małych klubów. Oferujemy możliwość wynajmu sprzętu, co czyni platformę dostępną i opłacalną. Innowacje w treningach sportowych wspierają rozwój zawodników i klubu na każdym poziomie.',
     icon: RocketLaunchIcon,
   },
   {
-    name: 'Rozwój sportowy',
-    description: 'Dzięki AICoachPro kluby piłkarskie mogą łatwiej i efektywniej organizować treningi, a trenerzy zyskują narzędzie, które pozwala im skupić się na rozwoju zawodników. Zawodnicy natomiast otrzymują spersonalizowany trening, co przyspiesza ich rozwój sportowy i buduje solidne podstawy ich kariery piłkarskiej.',
+    name: 'Personalizowane Plany Treningowe dla Piłkarzy i Trenerów',
+    description: 'AI Coach Pro to narzędzie AI dla trenerów, które automatyzuje planowanie makrocykli treningowych. Trenerzy piłki nożnej mogą skupić się na analizie wyników sportowych AI, a zawodnicy otrzymują personalizowane plany treningowe, które poprawiają ich wyniki sportowe.',
     icon: RocketLaunchIcon,
   },
   {
-    name: 'Certyfikacja',
-    description: 'AICoachPro to kompleksowe, innowacyjne i przystępne rozwiązanie dla szkółek piłkarskich w Polsce, które podnosi jakość i efektywność treningów, wspierając jednocześnie dążenia klubu do uzyskania certyfikacji i dotacji.',
+    name: 'Certyfikacja i Dotacje dla Klubów Piłkarskich',
+    description: 'Nasza aplikacja treningowa dla sportowców i trenerów wspiera kluby w uzyskaniu certyfikacji PZPN oraz dotacji. AI Coach Pro to platforma analityczna do monitorowania wyników sportowych z AI, która rewolucjonizuje podejście do planowania treningów w klubach sportowych.',
     icon: RocketLaunchIcon,
   },
 ]
+
 
 export default function Hero() {
   return (
@@ -62,7 +63,7 @@ export default function Hero() {
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <img
             alt="App screenshot"
-            src="/assets/image1.png"
+            src="/assets/image3.png"
             width={2432}
             height={1442}
             className="rounded-xl ring-1 shadow-2xl ring-gray-900/10 inset-0 bg-darkGreen mix-blend-multiply"
@@ -77,10 +78,10 @@ export default function Hero() {
           {features.map((feature) => (
             <div key={feature.name} className="relative pl-9">
               <dt className="inline font-semibold text-gray-900">
-                <feature.icon aria-hidden="true" className="absolute top-1 left-1 size-5 text-indigo-600" />
+                <feature.icon aria-hidden="true" className="absolute top-1 left-1 size-5 text-darkGreen" />
                 {feature.name}
               </dt>{' '}
-              <dd className="inline">{feature.description}</dd>
+              <dd className="mt-4">{feature.description}</dd>
             </div>
           ))}
         </dl>
