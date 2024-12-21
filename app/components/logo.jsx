@@ -60,7 +60,7 @@ export default function Logo() {
               src="/assets/barycz.png"
               width={158}
               height={48}
-              className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
+              className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
             />
             {/* <img
               alt="Inter"

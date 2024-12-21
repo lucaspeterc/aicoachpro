@@ -85,6 +85,13 @@ export default function Navbar() {
                   <a
                     key={item.name}
                     href={item.href}
+                    onClick={() => {
+                      setMobileMenuOpen(false);  // Close menu after click
+                      const section = document.querySelector(item.href);  // Scroll smoothly to section
+                      if (section) {
+                        section.scrollIntoView({ behavior: 'smooth' });
+                      }
+                    }}
                     className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-darkGray hover:text-lightGreen"
                   >
                     {item.name}
