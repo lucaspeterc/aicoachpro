@@ -38,7 +38,7 @@ export default function Hero() {
                 >
                 Zgłoś klub                
                 </a>
-                <a href="#" className="text-sm/6 font-semibold text-white">
+                <a href="#features" className="text-sm/6 font-semibold text-white">
                   Dowiedz się więcej <span aria-hidden="true">→</span>
                 </a>
               </div>
