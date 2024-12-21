@@ -4,11 +4,11 @@ export default function Reserch() {
   return (
     <div className="bg-white px-6 py-32 lg:px-8">
       <div className="mx-auto max-w-7xl text-base/7 text-gray-700">
-        <p className="text-base/7 font-semibold text-darkGreen">Badania</p>
-        <h1 className="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">
+        <p className="text-base/7 text-center font-semibold text-darkGreen">Badania</p>
+        <h1 className="mt-2 text-center text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">
         Informacja o prowadzonych badaniach B+R
         </h1>
-        <p className="mt-6 text-xl/8">
+        <p className="mt-6 text-center text-xl/8">
         Nasza spółka, czerpiąc inspirację z dynamicznego rozwoju nowoczesnych technologii w sporcie, prowadzi intensywne prace badawczo-rozwojowe (B+R) w celu stworzenia innowacyjnego narzędzia – Coach AI. Projekt jest współfinansowany dzięki pozyskanej dotacji na działalność badawczo-rozwojową, co pozwala nam realizować naszą misję transformacji procesu szkoleniowego młodych piłkarzy.
 
 
