@@ -1,9 +1,9 @@
 const navigation = {
     main: [
-      { name: 'Wizja', href: '/vision' },
-      { name: 'Produkt', href: '#' },
-      { name: 'Badania', href: '#' },
-      { name: 'Partnerzy', href: '#' },
+      { name: 'Wizja', href: '#vision' },
+      { name: 'Produkt', href: '#features' },
+      { name: 'Badania', href: '#research' },
+      { name: 'Partnerzy', href: '#logo' },
       { name: 'Polityka Prywatności', href: '#' },
     ],
     social: [
@@ -71,7 +71,7 @@ const navigation = {
     ],
   }
   
-  export default function Example() {
+  export default function Footer() {
     return (
       <footer className="bg-white">
         <div className="mx-auto max-w-7xl overflow-hidden px-6 py-20 sm:py-24 lg:px-8">

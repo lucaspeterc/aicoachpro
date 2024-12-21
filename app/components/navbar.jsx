@@ -10,7 +10,7 @@ const navigation = [
   { name: 'Wizja', href: '#vision' },
   { name: 'Produkt', href: '#features' },
   { name: 'Badania', href: '#research' },
-  { name: 'O nas', href: '#about' },
+  { name: 'Partnerzy', href: '#logo' },
   { name: 'Kontakt', href: '#contact' },
 ]
 

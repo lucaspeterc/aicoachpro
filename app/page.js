@@ -6,6 +6,7 @@ import Contact from "./components/contact";
 import Footer from "./components/footer";
 import Vision from "./components/vision";
 import Logo from "./components/logo";
+import Research from "./components/research";
 
 export default function Home() {
   return (
@@ -19,7 +20,12 @@ export default function Home() {
       <section id="features">
         <Features />
         </section>
-      <Logo />
+      <section id="research">
+          <Research />
+        </section>
+      <section id="logo">
+        <Logo />
+        </section>
       <section id="contact">
         <Contact />
           </section>
