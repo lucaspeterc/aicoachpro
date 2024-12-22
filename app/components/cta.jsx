@@ -7,12 +7,12 @@ export default function Example() {
           </h2>
           <div className="mt-10 flex items-center gap-x-6 lg:mt-0 lg:shrink-0">
             <a
-              href="#"
+              href="#contact"
               className="rounded-md bg-darkGreen px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-lightGreen focus-visible:outline-2 focus-visible:outline-offset-2"
             >
               Wyślij zapytanie
             </a>
-            <a href="#" className="text-sm/6 font-semibold text-white hover:text-lightGreen">
+            <a href="#research" className="text-sm/6 font-semibold text-white hover:text-lightGreen">
               Dowiedz się więcej <span aria-hidden="true">→</span>
             </a>
           </div>
